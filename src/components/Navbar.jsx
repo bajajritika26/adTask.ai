@@ -28,14 +28,14 @@ const Navbar = () => {
           {/* Navbar Links */}
           <div className="collapse navbar-collapse justify-content-end " id="navbarNav" >
             <ul className="navbar-nav me-4">
-              <li className="nav-item">
-                <a className="nav-link" href="#" style={{color:"white"}}>Products <img src={downarrow} alt="arr" /> </a>
+              <li className="nav-item" style={{color:"white"}}>
+               Products <img src={downarrow} alt="arr" />
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" style={{color:"white"}}>Tools <img src={downarrow} alt="arr" /></a>
+              <li className="nav-item" style={{color:"white"}}>
+                Tools <img src={downarrow} alt="arr" />
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" style={{color:"white"}}>Contact Us</a>
+              <li className="nav-item" style={{color:"white"}}>
+                Contact Us
               </li>
             </ul>
             {/* Buttons */}
