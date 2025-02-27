@@ -25,6 +25,7 @@ const Register = () => {
         setMessage(null);
 
         try {
+            // eslint-disable-next-line
             const response = await axios.post(
                 "https://dev.adtask.ai/register",
                 formData,
@@ -33,7 +34,6 @@ const Register = () => {
                 }
             );
 
-            // Store user details in localStorage
             localStorage.setItem("user", JSON.stringify(formData));
 
             setMessage({ type: "success", text: "Registration successful!" });

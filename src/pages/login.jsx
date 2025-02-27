@@ -6,6 +6,7 @@ const Login = () => {
   const [credentials, setCredentials] = useState({ username: "", password: "" });
   const [response, setResponse] = useState(null);
   const [error, setError] = useState(null);
+  // eslint-disable-next-line
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
